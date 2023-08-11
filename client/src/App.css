@@ -1,0 +1,86 @@
+.box {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #f2e4fb; /* Updated background color */
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.col {
+  padding: 30px;
+}
+
+p {
+  padding: 20px;
+}
+
+.image {
+  padding: 15%;
+}
+
+h1 {
+  font-size: 4em;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #a37acb; /* Updated background color */
+  font-size: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.upload {
+  background-color: #d8bced; /* Updated background color */
+  align-items: center;
+  text-align: center;
+  color: black;
+  width: auto;
+  padding: 50px;
+  width: 100vw;
+  height: 50vh;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #445a6f;
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .about {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .col {
+    padding: 15px; /* Adjusted padding */
+  }
+
+  .box,
+  .upload {
+    height: auto;
+    padding: 0;
+  }
+
+  .upload {
+    padding-bottom: 30px; /* Adjusted padding */
+  }
+
+  .image {
+    padding: 0;
+  }
+}
