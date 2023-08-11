@@ -9,7 +9,7 @@ export const uploadImage = async(req, res) => {
     try {
         const file=await File.create(fileObj);
        // console.log(file);
-        res.status(200).json({ path: `https://file-sharing-system-backend-j81a.onrender.com/file/${file._id}`});
+        res.status(200).json({ path: `localhost:8000/file/${file._id}`});
     }
     catch (error) {
         console.log(error);
