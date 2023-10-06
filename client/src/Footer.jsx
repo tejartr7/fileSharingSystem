@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer text-center p-3'>
             © 2023 Copyright:
-            <a class="text-dark" href="https://github.com/tejartr7">To know about my projects!</a>
+            <a class="text-dark" href="https://twitter.com/raghu_rtr">To know about my projects!</a>
         </div>
     )
 }
